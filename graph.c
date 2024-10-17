@@ -25,7 +25,7 @@ int main() {
                     polish_formula);  // Преобразовываем входную строку в польскую штучку!
     printf("Формула в польской нотации: %s\n", polish_formula);
     init_graph(graph, HEIGHT, WIDTH);  // Инициализируем граф, связываем его с массивом graph
-    add_function_on_graph(graph, HEIGHT, WIDTH, polish_formula);  // Размещаем звездочки в матрицу graph
+    add_function_on_graph(graph, HEIGHT, WIDTH, polish_formula);  // Размещаем звездочки :) в матрицу graph
     draw_graph(graph, HEIGHT);                                    // Рисуем график
     free_data(graph, HEIGHT);
     free_stack(operations);  // Чистим память матрицы!!!

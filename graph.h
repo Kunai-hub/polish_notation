@@ -23,7 +23,7 @@ struct stack *push(struct stack *, char);  // Помещаем в стек си�
 char delete (struct stack **head);         // Удаляем из стека символ
 int priority(char);                        // Возвращаем приоритет для символа
 void polish_notation(struct stack *operations, char *input_str,
-                     char *output_str);  // Преобразовываем строку в польскую НОТАЦИЮ)!
+                     char *output_str);  // Преобразовываем строку в польскую НОТАЦИЮ))!
 
 // CALCULATE DATA
 double counter(char *output_str,
