@@ -70,6 +70,6 @@ double counter(char *output_str, double x) {
 void add_function_on_graph(char **graph, int height, int width, char *polish) {
     for (int x = 1; x < width; x++) {
         int y = height / 2 + 10 * counter(polish, x / PI);
-        if (y > 0 && y < 25) graph[y][x] = STAR;  // Добавили звездочку :)
+        if (y > 0 && y < 25) graph[y][x] = STAR;  // Добавили звездочку :))
     }
 }
