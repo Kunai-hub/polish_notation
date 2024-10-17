@@ -1,6 +1,6 @@
 #include "graph.h"
 
-char **init_data(int height, int width) {
+char **init_data(int height, int width) {  //создаем массив
     char **matrix;
     matrix = (char **)malloc(height * sizeof(char *));
     for (int y = 0; y < height; y++) {
